@@ -6,10 +6,10 @@ import com.google.gson.Gson
 import com.techconsul.dictionary.feature_dictionary.data.local.Converters
 import com.techconsul.searchwordapp.feature_dictionary.data.local.WordInfoDatabase
 import com.techconsul.searchwordapp.feature_dictionary.data.remote.DictionaryApi
-import com.techconsul.searchwordapp.feature_dictionary.data.repository.WordInfoRepositoryImpl
+import com.techconsul.dictionary.feature_dictionary.data.repository.WordInfoRepositoryImpl
 import com.techconsul.searchwordapp.feature_dictionary.data.util.GsonParser
-import com.techconsul.searchwordapp.feature_dictionary.domain.repository.WordInfoRepository
-import com.techconsul.searchwordapp.feature_dictionary.domain.use_case.GetWordInfo
+import com.techconsul.dictionary.feature_dictionary.domain.repository.WordInfoRepository
+import com.techconsul.dictionary.feature_dictionary.domain.use_case.GetWordInfo
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

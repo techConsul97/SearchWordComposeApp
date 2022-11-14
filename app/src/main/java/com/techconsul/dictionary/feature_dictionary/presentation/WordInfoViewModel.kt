@@ -5,7 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.techconsul.searchwordapp.core.util.Resource
-import com.techconsul.searchwordapp.feature_dictionary.domain.use_case.GetWordInfo
+import com.techconsul.dictionary.feature_dictionary.domain.use_case.GetWordInfo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
